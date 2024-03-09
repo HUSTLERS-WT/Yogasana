@@ -1,0 +1,30 @@
+body{
+    /* use full widthh and heght of screen*/
+    height: 100vh;
+    width: 100vw;
+    /* center the content */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* set background color */
+    background-color: #0a074a;
+}
+.container{
+    height: 100vh;
+    width:100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vid{
+    height: 75vh;
+    width:45vw;
+    background-color:white;
+
+}
+.disp{
+    height: 75vh;
+    width:45vw;
+    background-color: blueviolet;
+}
