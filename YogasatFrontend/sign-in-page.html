@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./sign-in-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:ital,wght@0,400;0,600;0,700;1,900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sign-in-page">
+      <main class="loginpage">
+        <div class="frame-a">
+          <div class="frame-b">
+            <img class="frame-icon" alt="" src="./public/frame1.svg" />
+
+            <div class="frame-parent">
+              <img class="frame-icon1" alt="" src="./public/frame2.svg" />
+
+              <img class="frame-icon2" alt="" src="./public/frame3.svg" />
+            </div>
+          </div>
+          <img
+            class="content-frame-icon"
+            loading="lazy"
+            alt=""
+            src="./public/frame4.svg"
+          />
+        </div>
+        <div class="content">
+          <form class="full-name-input-frame">
+            <div class="name-inp-frame">
+              <div class="title">Create your Free Account</div>
+            </div>
+            <div class="create-account-button">
+              <div class="logged-in-link">
+                <div class="fullname-input">
+                  <div class="full-name">Full Name</div>
+                  <input
+                    class="nameinp"
+                    placeholder="Enter your Fulll Name here"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div class="logged-in-link1">
+                <div class="email-input">
+                  <div class="email">Email</div>
+                  <input
+                    class="emailinp"
+                    placeholder="Enter your Email here"
+                    type="text"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="google-frame">
+              <div class="signup-with-google-button">
+                <button class="buttoncreateacc">
+                  <div class="create-account">Create Account</div>
+                </button>
+              </div>
+              <div class="already-have-a-container">
+                <span class="already-have-a">Already have a account?</span>
+                <span class="span84"> </span>
+                <span class="log-in">Log in</span>
+              </div>
+            </div>
+            <div class="divider-or">
+              <div class="o-r-label">
+                <div class="google-signin-button">
+                  <div class="or-">- OR -</div>
+                </div>
+                <div class="content-frame" id="contentFrameContainer">
+                  <button class="buttongoogle">
+                    <img
+                      class="google-icon"
+                      alt=""
+                      src="./public/google@2x.png"
+                    />
+
+                    <div class="signup-with-google-wrapper">
+                      <div class="signup-with-google">Signup with Google</div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="contact-info-directed-to-leo">
+            <div class="reserved-directs-to">
+              Reserved directs to Leo Barreto
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      var contentFrameContainer = document.getElementById("contentFrameContainer");
+      if (contentFrameContainer) {
+        contentFrameContainer.addEventListener("click", function (e) {
+          window.location.href = "personal-info.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-source-sans-pro: "Source Sans Pro";
+  --font-playfair-display: "Playfair Display";
+  --font-roboto: Roboto;
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-lg: 1.125rem;
+  --font-size-5xl: 1.5rem;
+  --font-size-base: 1rem;
+  --font-size-mini: 0.938rem;
+  --font-size-xl: 1.25rem;
+  --font-size-29xl: 3rem;
+  --font-size-7xl: 1.625rem;
+  --font-size-2xl: 1.313rem;
+  --font-size-lgi: 1.188rem;
+
+  /* Colors */
+  --color-lightcyan: #cdfbf6;
+  --color-darkslategray-100: #0e5c63;
+  --color-whitesmoke-100: #f8f8f6;
+  --color-gainsboro-100: #e0e0dc;
+  --color-gainsboro-200: #d9d9d9;
+  --color-darkseagreen: #9dca83;
+  --color-mediumaquamarine: #69b8a4;
+  --color-darkcyan: #009090;
+  --color-dimgray: #555547;
+  --color-gold: #ffce35;
+  --color-white: #fff;
+  --color-orange: #ffb301;
+  --color-gray-100: #7c838a;
+  --color-gray-200: #141414;
+  --color-gray-400: rgba(0, 0, 0, 0.63);
+  --color-gray-500: rgba(0, 0, 0, 0.69);
+  --color-gray-600: rgba(0, 0, 0, 0.5);
+  --color-gray-300: rgba(23, 23, 23, 0.8);
+  --color-turquoise-100: #60f3e1;
+  --color-silver-100: rgba(176, 186, 195, 0.4);
+  --color-black: #000;
+
+  /* Gaps */
+  --gap-29xl: 3rem;
+  --gap-base: 1rem;
+  --gap-0: 0rem;
+  --gap-22xl: 2.563rem;
+
+  /* Paddings */
+  --padding-11xs: 0.125rem;
+  --padding-212xl: 14.438rem;
+  --padding-10xl: 1.813rem;
+  --padding-211xl: 14.375rem;
+  --padding-10xs: 0.188rem;
+  --padding-233xl: 15.75rem;
+  --padding-249xl: 16.75rem;
+  --padding-196xl: 13.438rem;
+  --padding-18xl: 2.313rem;
+  --padding-242xl: 16.313rem;
+  --padding-259xl: 17.375rem;
+  --padding-102xl: 7.563rem;
+  --padding-50xl: 4.313rem;
+  --padding-232xl: 15.688rem;
+  --padding-220xl: 14.938rem;
+  --padding-5xl: 1.5rem;
+  --padding-92xl: 6.938rem;
+  --padding-243xl: 16.375rem;
+  --padding-xs: 0.75rem;
+  --padding-29xl: 3rem;
+  --padding-70xl: 5.563rem;
+  --padding-25xl: 2.75rem;
+  --padding-xl: 1.25rem;
+  --padding-3xs: 0.625rem;
+  --padding-2xs: 0.688rem;
+  --padding-mid-5: 1.094rem;
+  --padding-21xl: 2.5rem;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-5xl: 24px;
+  --br-13xl: 32px;
+  --br-6xl: 25px;
+  --br-xl: 20px;
+  --br-4xl: 23px;
+}

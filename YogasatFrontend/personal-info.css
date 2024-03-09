@@ -1,0 +1,396 @@
+.sl-051022-50280-34-1-icon {
+  position: absolute;
+  top: -17.625rem;
+  left: -77.812rem;
+  width: 180.625rem;
+  height: 189.25rem;
+  object-fit: cover;
+}
+.about-you,
+.let-us-know {
+  position: absolute;
+  width: 35.125rem;
+}
+.let-us-know {
+  margin: 0;
+  top: 34.813rem;
+  left: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(153.59deg, #096a6a 20.67%, #28eee2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about-you {
+  top: -17.625rem;
+  left: 2rem;
+  height: 61.813rem;
+  overflow: hidden;
+  font-size: 6rem;
+}
+.know-more-about-you,
+.why-yoga {
+  position: absolute;
+  width: 47.688rem;
+}
+.why-yoga {
+  top: 23.875rem;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 51.938rem;
+}
+.know-more-about-you {
+  top: -17.625rem;
+  left: 42.813rem;
+  height: 75.813rem;
+  overflow: hidden;
+}
+.your-info {
+  position: absolute;
+  top: 24.938rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 9rem;
+  height: 3.375rem;
+}
+.frame-your-info {
+  position: absolute;
+  top: -17.625rem;
+  left: 45.625rem;
+  width: 9rem;
+  height: 28.313rem;
+  overflow: hidden;
+  color: var(--color-gray-400);
+}
+.your-info1 {
+  position: absolute;
+  top: 24.938rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 9rem;
+  height: 3.375rem;
+}
+.frame-your-info1 {
+  position: absolute;
+  top: -17.625rem;
+  left: 45.625rem;
+  width: 9rem;
+  height: 28.313rem;
+  overflow: hidden;
+  color: var(--color-gray-400);
+}
+.frame-your-info-child {
+  border: 1px solid var(--color-gray-100);
+  outline: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 40.375rem;
+  left: 0;
+  border-radius: var(--br-4xl);
+  box-sizing: border-box;
+  width: 41.438rem;
+  height: 4.563rem;
+}
+.frame-your-info2 {
+  position: absolute;
+  top: -17.625rem;
+  left: 45.188rem;
+  width: 41.438rem;
+  height: 44.938rem;
+  overflow: hidden;
+}
+.frame-your-info3,
+.gender {
+  position: absolute;
+  width: 9rem;
+}
+.gender {
+  top: 37.5rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  height: 3.375rem;
+}
+.frame-your-info3 {
+  top: -17.625rem;
+  left: 46.688rem;
+  height: 40.875rem;
+  overflow: hidden;
+}
+.female,
+.frame-your-info4 {
+  position: absolute;
+  width: 37rem;
+}
+.female {
+  top: 41.625rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  height: 2.188rem;
+}
+.frame-your-info4 {
+  top: -17.625rem;
+  left: 47rem;
+  height: 43.813rem;
+  overflow: hidden;
+  color: var(--color-silver-100);
+}
+.frame-your-info-item {
+  border: 1px solid var(--color-gray-100);
+  background-color: var(--color-white);
+  height: 8.625rem;
+  width: 41.438rem;
+  outline: 0;
+  position: absolute;
+  top: 57.188rem;
+  left: 0;
+  border-radius: var(--br-4xl);
+  box-sizing: border-box;
+}
+.frame-your-info5 {
+  position: absolute;
+  top: -17.625rem;
+  left: 45.188rem;
+  width: 41.438rem;
+  height: 65.813rem;
+  overflow: hidden;
+}
+.health-issues,
+.why-you-want {
+  position: absolute;
+  width: 24.875rem;
+}
+.why-you-want {
+  top: 54.813rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  height: 3.375rem;
+}
+.health-issues {
+  top: -17.625rem;
+  left: 46.688rem;
+  height: 58.188rem;
+  overflow: hidden;
+}
+.tell-us-in {
+  position: absolute;
+  top: 58.188rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  width: 37rem;
+  height: 6.688rem;
+}
+.frame-your-info6 {
+  position: absolute;
+  top: -17.625rem;
+  left: 46.688rem;
+  width: 37rem;
+  height: 64.875rem;
+  overflow: hidden;
+  color: var(--color-silver-100);
+}
+.frame-your-info-inner {
+  border: 1px solid var(--color-gray-100);
+  outline: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  top: 32.063rem;
+  left: 0;
+  border-radius: var(--br-4xl);
+  box-sizing: border-box;
+  width: 41.438rem;
+  height: 4.563rem;
+}
+.frame-your-info7 {
+  position: absolute;
+  top: -17.625rem;
+  left: 45.188rem;
+  width: 41.438rem;
+  height: 36.625rem;
+  overflow: hidden;
+}
+.age1 {
+  margin: 0;
+}
+.age,
+.frame-your-info8 {
+  position: absolute;
+  width: 9rem;
+}
+.age {
+  top: 29.188rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  height: 3.375rem;
+}
+.frame-your-info8 {
+  top: -17.625rem;
+  left: 46.688rem;
+  height: 32.563rem;
+  overflow: hidden;
+}
+.p {
+  margin: 0;
+}
+.div547,
+.frame-your-info9 {
+  position: absolute;
+  width: 37rem;
+}
+.div547 {
+  top: 33.313rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  height: 2.188rem;
+}
+.frame-your-info9 {
+  top: -17.625rem;
+  left: 47rem;
+  height: 35.5rem;
+  overflow: hidden;
+  color: var(--color-silver-100);
+}
+.rectangle-div {
+  position: absolute;
+  top: 48.563rem;
+  left: 0;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 41.438rem;
+  height: 4.563rem;
+}
+.frame-your-info10 {
+  position: absolute;
+  top: -17.625rem;
+  left: 45.188rem;
+  width: 41.438rem;
+  height: 53.125rem;
+  overflow: hidden;
+}
+.age-frame,
+.any-health-issues {
+  position: absolute;
+  width: 28.125rem;
+}
+.any-health-issues {
+  top: 45.688rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  height: 3.375rem;
+}
+.age-frame {
+  top: -17.625rem;
+  left: 46.688rem;
+  height: 49.063rem;
+  overflow: hidden;
+}
+.div548,
+.frame-your-info11 {
+  position: absolute;
+  width: 37rem;
+}
+.div548 {
+  top: 49.813rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  height: 2.188rem;
+}
+.frame-your-info11 {
+  top: -17.625rem;
+  left: 47rem;
+  height: 52rem;
+  overflow: hidden;
+  color: var(--color-silver-100);
+}
+.rectangle,
+.submit {
+  position: absolute;
+  width: 15.625rem;
+}
+.submit {
+  top: 69.438rem;
+  left: 0;
+  border-radius: var(--br-4xl);
+  background-color: var(--color-turquoise-100);
+  height: 4.125rem;
+  cursor: pointer;
+}
+.rectangle {
+  top: -17.625rem;
+  left: 57.688rem;
+  height: 73.563rem;
+  overflow: hidden;
+}
+.info-frame,
+.submit1 {
+  position: absolute;
+  width: 11.75rem;
+}
+.submit1 {
+  top: 70.25rem;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  height: 2.5rem;
+}
+.info-frame {
+  top: -17.625rem;
+  left: 62.313rem;
+  height: 72.75rem;
+  overflow: hidden;
+  font-size: 1.563rem;
+  color: var(--color-black);
+}
+.personal-info {
+  width: 100%;
+  height: 61.375rem;
+  position: relative;
+  background-color: var(--color-turquoise-100);
+  overflow: hidden;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 767px) {
+  .let-us-know {
+    font-size: var(--font-size-29xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .let-us-know {
+    font-size: 1.813rem;
+  }
+  .age,
+  .any-health-issues,
+  .div547,
+  .div548,
+  .female,
+  .gender,
+  .tell-us-in,
+  .why-you-want,
+  .your-info,
+  .your-info1 {
+    font-size: var(--font-size-lgi);
+  }
+  .submit1 {
+    font-size: var(--font-size-xl);
+  }
+}
