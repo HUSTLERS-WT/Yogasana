@@ -26,6 +26,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
     />
+    <script type="module" src="sign-in-page.js"></script>
   </head>
   <body>
     <div class="sign-in-page">
@@ -58,6 +59,7 @@
                   <div class="full-name">Full Name</div>
                   <input
                     class="nameinp"
+                    id="nameinp"
                     placeholder="Enter your Fulll Name here"
                     type="text"
                   />
@@ -65,26 +67,52 @@
               </div>
               <div class="logged-in-link1">
                 <div class="email-input">
-                  <div class="email">Email</div>
+                  <div class="email">Phone No.</div>
                   <input
-                    class="emailinp"
-                    placeholder="Enter your Email here"
+                    class="numberinp"
+                    id="numberinp"
+                    placeholder="Enter your Phone Number here"
                     type="text"
                   />
                 </div>
               </div>
+
+              <div class="logged-in-link1">
+                <div class="email-input">
+                  <div class="email"> Age </div>
+                  <input
+                    class="numberinp"
+                    id="ageinp"
+                    placeholder="Enter your Age here"
+                    type="text"
+                  />
+                </div>
+              </div>
+
+              <div class="logged-in-link1">
+                <div class="email-input">
+                  <div class="email"> Any Health issues( mention if any )</div>
+                  <input
+                    class="numberinp"
+                    id="healthissue-inp"
+                    placeholder="Enter your health issues here "
+                    type="text"
+                  />
+                </div>
+              </div>
+
             </div>
             <div class="google-frame">
               <div class="signup-with-google-button">
-                <button class="buttoncreateacc">
+                <button class="buttoncreateacc" id ="buttoncreateacc">
                   <div class="create-account">Create Account</div>
                 </button>
               </div>
-              <div class="already-have-a-container">
+              <!-- <div class="already-have-a-container">
                 <span class="already-have-a">Already have a account?</span>
                 <span class="span84"> </span>
                 <span class="log-in">Log in</span>
-              </div>
+              </div> -->
             </div>
             <div class="divider-or">
               <div class="o-r-label">
@@ -92,7 +120,7 @@
                   <div class="or-">- OR -</div>
                 </div>
                 <div class="content-frame" id="contentFrameContainer">
-                  <button class="buttongoogle">
+                  <button type="button" class="buttongoogle" id="buttongoogle">
                     <img
                       class="google-icon"
                       alt=""
@@ -100,29 +128,25 @@
                     />
 
                     <div class="signup-with-google-wrapper">
-                      <div class="signup-with-google">Signup with Google</div>
+                      <div class="signup-with-google">Sign In with Google</div>
                     </div>
                   </button>
                 </div>
               </div>
             </div>
           </form>
-          <div class="contact-info-directed-to-leo">
-            <div class="reserved-directs-to">
-              Reserved directs to Leo Barreto
-            </div>
-          </div>
+
         </div>
       </main>
     </div>
 
-    <script>
+    <!-- <script>
       var contentFrameContainer = document.getElementById("contentFrameContainer");
       if (contentFrameContainer) {
         contentFrameContainer.addEventListener("click", function (e) {
-          window.location.href = "personal-info.html";
+          // window.location.href = "personal-info.html";
         });
       }
-      </script>
+      </script> -->
   </body>
 </html>

@@ -110,7 +110,7 @@
   padding: 0 0 0 var(--padding-2xs);
 }
 .email,
-.emailinp {
+.numberinp {
   font-family: var(--font-poppins);
   font-size: var(--font-size-xl);
 }
@@ -120,7 +120,7 @@
   color: var(--color-gray-100);
   text-align: left;
 }
-.emailinp {
+.numberinp {
   width: 100%;
   border: 0;
   outline: 0;
@@ -300,12 +300,12 @@
   gap: 3.25rem 0;
   max-width: 100%;
 }
-.reserved-directs-to {
+/* .reserved-directs-to {
   align-self: stretch;
   width: 17.438rem;
   position: relative;
   display: inline-block;
-}
+} */
 .contact-info-directed-to-leo {
   width: 37.813rem;
   height: 1.438rem;
@@ -350,6 +350,7 @@
   font-size: var(--font-size-xl);
   color: var(--color-gray-100);
   font-family: var(--font-roboto);
+  /* overflow-y: hidden; */
 }
 .sign-in-page {
   width: 100%;
@@ -424,4 +425,13 @@
   .loginpage {
     height: auto;
   }
+}
+
+body {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
