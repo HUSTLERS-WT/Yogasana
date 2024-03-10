@@ -44,7 +44,7 @@ function setup() {
   targetLabel = 1;
   target = posesArray[poseCounter];
   document.getElementById("poseName").textContent = target;
-  timeLeft = 15;
+  timeLeft = 10;
   document.getElementById("time").textContent = "00:" + timeLeft;
   errorCounter = 0;
   iterationCounter = 0;
@@ -90,7 +90,7 @@ function classifyPose(){
 function gotResult(error, results) {
   document.getElementById("welldone").textContent = "";
   document.getElementById("sparkles").style.display = "none";
-  if (results[0].confidence > 0.70) {
+  if (results[0].confidence > 0.60) {
     console.log("Confidence");
     if (results[0].label == targetLabel.toString()){
       console.log(targetLabel);
@@ -98,14 +98,14 @@ function gotResult(error, results) {
 
       console.log(iterationCounter)
       
-      if (iterationCounter == 15) {
+      if (iterationCounter == 10) {
         console.log("30!")
         iterationCounter = 0;
         nextPose();}
       else{
         console.log("doin this")
         timeLeft = timeLeft - 1;
-        if (timeLeft < 15){
+        if (timeLeft < 10){
           document.getElementById("time").textContent = "00:0" + timeLeft;
         }else{
         document.getElementById("time").textContent = "00:" + timeLeft;}
@@ -116,8 +116,8 @@ function gotResult(error, results) {
       if (errorCounter >= 4){
         console.log("four errors");
         iterationCounter = 0;
-        timeLeft = 15;
-        if (timeLeft < 15){
+        timeLeft = 10;
+        if (timeLeft < 10){
           document.getElementById("time").textContent = "00:0" + timeLeft;
         }else{
         document.getElementById("time").textContent = "00:" + timeLeft;}
@@ -183,7 +183,7 @@ function nextPose(){
     document.getElementById("sparkles").style.display = 'block';
     document.getElementById("poseImg").src = imgArray[poseCounter].src;
     console.log("classifying again");
-    timeLeft = 15;
+    timeLeft = 10;
     document.getElementById("time").textContent = "00:" + timeLeft;
     setTimeout(classifyPose, 4000)}
 }
