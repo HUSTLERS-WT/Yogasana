@@ -4,7 +4,7 @@ let pose;
 let skeleton;
 let thirtysecs;
 // let loadingScreen = true;
-let posesArray = ['Mountain', 'Tree', 'Chair', 'Downward-dog', 'Warrior I', 'Warrior II'];
+let posesArray = ['Tree'];
 var imgArray = new Array();
 
 var poseImage;
@@ -29,17 +29,8 @@ function setup() {
   poseNet.on('pose', gotPoses);
 
   imgArray[0] = new Image();
-  imgArray[0].src = 'imgs/mountain.svg';
-  imgArray[1] = new Image();
-  imgArray[1].src = 'imgs/tree.svg';
-  imgArray[2] = new Image();
-  imgArray[2].src = 'imgs/chair.svg';
-  imgArray[3] = new Image();
-  imgArray[3].src = 'imgs/dog.svg';
-  imgArray[4] = new Image();
-  imgArray[4].src = 'imgs/warrior1.svg';
-  imgArray[5] = new Image();
-  imgArray[5].src = 'imgs/warrior2.svg';
+  imgArray[0].src = 'imgs/tree.svg';
+
 
   poseCounter = 0;
   targetLabel = 1;

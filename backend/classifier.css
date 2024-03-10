@@ -33,6 +33,8 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding:70px;
+
 }
 
 .cont {
@@ -40,25 +42,51 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: #D9D9D9;
-  width: 640px;
-  height: 480px;
+  width: 480px;
+  height: 360px;
   border-radius: 40px;
-  margin-right: 100px; /* Add some spacing between .cont and .dis */
+  margin-right: 150px; 
   margin-bottom: 400px;
 }
 
 .dis {
   background-color: #61F3E1;
-  width: 630px;
-  height: 900px;
+  width: 510px;
+  height: 400px;
   border-radius: 40px;
+  padding-bottom: 600px;
+  margin-left: 60%;
 }
 
 #poseImg {
-  left: 22%;
+  left: 17%;
   position: relative;
   width: 340px;
   height: 340px;
 }
 
+indexbutton{
+  position: absolute;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 65px;
+  /* identical to box height */
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  letter-spacing: -0.05em;
+  height: 75px; 
+  left:99px; 
 
+  color: #FFFFFF;
+
+  background: #61F3E1;
+
+}
+
+indexbutton:hover{
+  border: 4px solid #FFFFFF;
+  box-sizing: border-box;
+}

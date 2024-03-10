@@ -72,7 +72,7 @@ registerBtn.addEventListener('click', function (event) {
                     .then(() => {
                         // signOut(auth)
                         window.alert("User registered successfully and data gets written to the database");
-                        window.location.href = "./personal-info.html";
+                        window.location.href = "./landin-page.html";
                     })
                     .catch((error) => {
                         const errorCode = error.code;
@@ -99,7 +99,7 @@ loginBtn.addEventListener('click', function (event) {
             const token = credential.accessToken;
             const user = result.user;
             window.alert("Welcome Back!");
-            window.location.href = "./personal-info.html";
+            window.location.href = "./landing-page.html";
         }).catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;

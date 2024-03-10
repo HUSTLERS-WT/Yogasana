@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="./../src/p5.min.js"></script>
   <script src="./../src/ml5.min.js"></script>
-  <script src="./../backend/classifier.js"></script>
+  <script src="./../backend/tree.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon-16x16.png">
   <title>yogAI</title>
@@ -25,15 +25,14 @@
   <!-- <h1 style="font-size: 100px; top:-30px"></h1> -->
   <!-- <div id="rectangle" style="width:640px; height:480px; margin-left:80px; margin-top:160px; background-color:grey; text-align:center; box-sizing: border-box; padding: 210px; font-size: 50px; font-weight: normal; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color:white; display:block;">Loading...</div>!-->
   <div class="container">
-    <div id="rectangle" class="cont"
-      style="width:640px; height:480px; margin-left:80px; margin-top:160px; background-color: #D9D9D9;">
-      <img src="imgs/f7camera.svg" style="display: block; margin: 0 auto;">
+    <div id="rectangle" class="cont">
+      <img src="imgs/f7camera.svg" style="margin: 0 auto;">
     </div>
     <div class="dis">
-      <div id="poseName" style="font-size: 100px; color: #FFFFFF;text-align: center;margin-bottom: 60px;">Mountain</div>
-      <img id="poseImg" src="imgs/mountain.svg">
-     <div style="margin-top: 110px;">
-      <div style="font-size: 100px; text-align: center;bottom:20%; color: white;">
+      <div id="poseName" style="font-size: 100px; color: #FFFFFF;text-align: center;margin-bottom: 60px;">Tree</div>
+      <img id="poseImg" src="imgs/tree.svg">
+     <div style="margin-top: 90px;">
+      <div style="font-size: 100px; text-align: center; color: white;">
         <img class="timer" src="imgs/time.svg" style="width:70px; height:54px; top: 500px; left: 600px;">
         <span id="time">00:10</span></div>
       <div style="font-size: 40px; text-align: center; color: white;">seconds left to hold</div>
@@ -53,7 +52,7 @@
   <h1 style="font-size: 100px; top:520px; left:1000px "><span id="time">00:15</span></h1>
   <h1 style="font-size: 40px; top:630px; left:960px">seconds left to hold</h1> -->
 
-  <!-- <div><a href="index.html" style="width: 150px"><indexbutton style="font-size: 40px; top:740px">Exit</indexbutton></a></div> -->
+  <div><a href="./../Frontend/landing-page.html" style="width: 150px"><indexbutton style="font-size: 40px; top:740px">Go Back</indexbutton></a></div>
 </body>
 
 </html>
