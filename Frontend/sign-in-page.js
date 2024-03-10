@@ -72,7 +72,7 @@ registerBtn.addEventListener('click', function (event) {
                     .then(() => {
                         // signOut(auth)
                         window.alert("User registered successfully and data gets written to the database");
-                        window.location.href = "./landin-page.html";
+                        window.location.href = "./landing-page.html";
                     })
                     .catch((error) => {
                         const errorCode = error.code;
