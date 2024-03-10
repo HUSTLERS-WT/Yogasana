@@ -59,10 +59,11 @@ function setup() {
   
   yogasana = ml5.neuralNetwork(options);
   const modelInfo = {
-    model: 'model/model2.json',
-    metadata: 'model/model_meta2.json',
-    weights: 'model/model.weights2.bin',
+    model: './../model/model2.json',
+    metadata: './../model/model_meta2.json',
+    weights: './../model/model.weights2.bin',
   };
+
   yogasana.load(modelInfo, yogasanaLoaded);
 }
   
