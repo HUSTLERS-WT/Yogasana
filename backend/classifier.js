@@ -93,33 +93,36 @@ function classifyPose() {
 function gotResult(error, results) {
   document.getElementById("welldone").textContent = "";
   document.getElementById("sparkles").style.display = "none";
-  if (results[0].confidence > 0.60) {
+  if (results[0].confidence > 0.40) {
     console.log("Confidence");
     if (results[0].label == targetLabel.toString()) {
       console.log(targetLabel);
       iterationCounter = iterationCounter + 1;
-
+  
       console.log(iterationCounter)
-
+  
       if (iterationCounter == 10) {
         console.log("30!")
         iterationCounter = 0;
         nextPose();
-      }
-      else {
+      } else {
         console.log("doin this")
+        // Decrease the timer for correct poses
         timeLeft = timeLeft - 1;
+  
         if (timeLeft < 10) {
           document.getElementById("time").textContent = "00:0" + timeLeft;
         } else {
           document.getElementById("time").textContent = "00:" + timeLeft;
         }
+  
         setTimeout(classifyPose, 1000);
       }
-    }
-    else {
+    } else {
+      // Handle incorrect poses
       errorCounter = errorCounter + 1;
       console.log("error");
+  
       if (errorCounter >= 4) {
         console.log("four errors");
         iterationCounter = 0;
@@ -135,11 +138,11 @@ function gotResult(error, results) {
         setTimeout(classifyPose, 100);
       }
     }
-  }
-  else {
+  } else {
     console.log("whatwe really dont want")
     setTimeout(classifyPose, 100);
   }
+  
 }
 
 
